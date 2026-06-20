@@ -1,0 +1,33 @@
+name: "Radish Microgreens - 7 Day"
+cultivar_id: "radish-microgreen"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Fast radish microgreens for high turnover"
+difficulty: "beginner"
+expected_yield_g_per_m2: 150
+cycle_days: 7
+
+phases:
+  - name: "Germination"
+    duration_days: 2
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 80
+      max: 95
+    light_dli: 0.0
+    notes: "Blackout period; keep moist"
+
+  - name: "Growth"
+    duration_days: 5
+    temperature:
+      min: 18
+      max: 22
+    humidity:
+      min: 65
+      max: 80
+    light_dli: 12.0
+    notes: "High light for compact, nutrient-dense growth"
+
+tags: ["microgreens", "radish", "beginner", "7-day"]

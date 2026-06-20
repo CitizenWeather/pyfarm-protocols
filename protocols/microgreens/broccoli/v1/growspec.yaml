@@ -1,0 +1,44 @@
+name: "Broccoli Microgreens - 10 Day"
+cultivar_id: "broccoli-microgreen"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Nutrient-rich broccoli microgreens"
+difficulty: "beginner"
+expected_yield_g_per_m2: 120
+cycle_days: 10
+
+phases:
+  - name: "Germination"
+    duration_days: 2
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 80
+      max: 95
+    light_dli: 0.0
+    notes: "Blackout period; high humidity for germination"
+
+  - name: "Establishment"
+    duration_days: 3
+    temperature:
+      min: 18
+      max: 22
+    humidity:
+      min: 70
+      max: 85
+    light_dli: 6.0
+    notes: "Moderate light to avoid etiolation"
+
+  - name: "Growth"
+    duration_days: 5
+    temperature:
+      min: 18
+      max: 22
+    humidity:
+      min: 60
+      max: 75
+    light_dli: 14.0
+    notes: "Full intensity light; reduce humidity for disease prevention"
+
+tags: ["microgreens", "broccoli", "beginner", "10-day", "high-nutrition"]

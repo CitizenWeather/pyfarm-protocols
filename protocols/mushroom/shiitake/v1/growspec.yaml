@@ -1,0 +1,42 @@
+name: "Shiitake - Standard Fruiting"
+cultivar_id: "shiitake-dark-oak"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Shiitake fruiting from colonized hardwood logs"
+difficulty: "intermediate"
+expected_yield_g_per_m2: 600
+cycle_days: 45
+
+phases:
+  - name: "Colonization"
+    duration_days: 30
+    temperature:
+      min: 18
+      max: 24
+    humidity:
+      min: 65
+      max: 80
+    notes: "Longer incubation than oyster; maintain moisture"
+
+  - name: "Initiation"
+    duration_days: 5
+    temperature:
+      min: 10
+      max: 15
+    humidity:
+      min: 85
+      max: 95
+    notes: "Temperature shock triggers fruiting; high humidity"
+
+  - name: "Fruiting"
+    duration_days: 10
+    temperature:
+      min: 12
+      max: 18
+    humidity:
+      min: 80
+      max: 95
+    light_dli: 6.0
+    notes: "Monitor for moisture; avoid direct water on caps"
+
+tags: ["mushroom", "shiitake", "intermediate", "logs"]

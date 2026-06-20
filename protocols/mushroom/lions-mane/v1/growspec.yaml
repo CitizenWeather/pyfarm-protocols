@@ -1,0 +1,43 @@
+name: "Lion's Mane - Fruiting"
+cultivar_id: "lions-mane-standard"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Lion's mane (Hericium) fruiting protocol"
+difficulty: "beginner"
+expected_yield_g_per_m2: 700
+cycle_days: 40
+
+phases:
+  - name: "Colonization"
+    duration_days: 24
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 70
+      max: 85
+    notes: "Fast colonization; good air exchange prevents contamination"
+
+  - name: "Pinning"
+    duration_days: 8
+    temperature:
+      min: 15
+      max: 20
+    humidity:
+      min: 85
+      max: 95
+    light_dli: 3.0
+    notes: "Humidity and temperature drop triggers pins"
+
+  - name: "Fruiting"
+    duration_days: 8
+    temperature:
+      min: 15
+      max: 18
+    humidity:
+      min: 80
+      max: 90
+    light_dli: 6.0
+    notes: "Long needle-like spines develop; maintain humidity gradient"
+
+tags: ["mushroom", "lions-mane", "beginner", "hericium"]

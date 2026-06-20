@@ -1,0 +1,43 @@
+name: "Oyster Grey - Simple Kit"
+cultivar_id: "oyster-grey-strain-a"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Low-tech oyster grow on minimal equipment"
+difficulty: "beginner"
+expected_yield_g_per_m2: 800
+cycle_days: 35
+
+phases:
+  - name: "Colonization"
+    duration_days: 21
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 70
+      max: 85
+    notes: "Keep spawn bag sealed, ensure air exchange daily"
+
+  - name: "Pinning"
+    duration_days: 7
+    temperature:
+      min: 15
+      max: 20
+    humidity:
+      min: 85
+      max: 95
+    light_dli: 4.0
+    notes: "Increase humidity to 90%+, reduce temperature 5°C"
+
+  - name: "Fruiting"
+    duration_days: 7
+    temperature:
+      min: 15
+      max: 20
+    humidity:
+      min: 80
+      max: 90
+    light_dli: 8.0
+    notes: "Maintain high humidity, good air exchange"
+
+tags: ["mushroom", "oyster", "beginner", "low-tech"]
