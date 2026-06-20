@@ -1,0 +1,33 @@
+name: "Alfalfa Microgreens - 8 Day"
+cultivar_id: "alfalfa-microgreen"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Nutrient-dense alfalfa microgreens with mild flavor"
+difficulty: "beginner"
+expected_yield_g_per_m2: 100
+cycle_days: 8
+
+phases:
+  - name: "Germination"
+    duration_days: 2
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 80
+      max: 95
+    light_dli: 0.0
+    notes: "Blackout period; keep consistently moist"
+
+  - name: "Growth"
+    duration_days: 6
+    temperature:
+      min: 18
+      max: 22
+    humidity:
+      min: 60
+      max: 75
+    light_dli: 6.0
+    notes: "Lower light requirement; good air exchange"
+
+tags: ["microgreens", "alfalfa", "beginner", "8-day"]
