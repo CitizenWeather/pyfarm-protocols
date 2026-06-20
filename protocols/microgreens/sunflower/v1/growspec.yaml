@@ -1,0 +1,33 @@
+name: "Sunflower Microgreens - 10 Day"
+cultivar_id: "sunflower-microgreen"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Hearty sunflower microgreens with strong flavor"
+difficulty: "beginner"
+expected_yield_g_per_m2: 180
+cycle_days: 10
+
+phases:
+  - name: "Germination"
+    duration_days: 2
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 80
+      max: 95
+    light_dli: 0.0
+    notes: "Blackout period; keep moist, high humidity"
+
+  - name: "Growth"
+    duration_days: 8
+    temperature:
+      min: 18
+      max: 23
+    humidity:
+      min: 60
+      max: 75
+    light_dli: 10.0
+    notes: "Moderate light; reduce humidity to prevent mold"
+
+tags: ["microgreens", "sunflower", "beginner", "10-day"]

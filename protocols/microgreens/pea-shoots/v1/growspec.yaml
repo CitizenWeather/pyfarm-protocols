@@ -1,0 +1,33 @@
+name: "Pea Shoots - 9 Day"
+cultivar_id: "pea-shoots-microgreen"
+author: "citizen-weather"
+date: "2026-06-01"
+description: "Sweet pea shoots with tender flavor profile"
+difficulty: "beginner"
+expected_yield_g_per_m2: 140
+cycle_days: 9
+
+phases:
+  - name: "Germination"
+    duration_days: 2
+    temperature:
+      min: 20
+      max: 25
+    humidity:
+      min: 80
+      max: 95
+    light_dli: 0.0
+    notes: "Blackout period; ensure good moisture"
+
+  - name: "Growth"
+    duration_days: 7
+    temperature:
+      min: 18
+      max: 23
+    humidity:
+      min: 65
+      max: 80
+    light_dli: 8.0
+    notes: "Moderate light; provide good air circulation"
+
+tags: ["microgreens", "pea-shoots", "beginner", "9-day"]
